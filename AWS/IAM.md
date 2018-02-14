@@ -53,3 +53,13 @@ A policy contains:
     }
 }
 ```
+
+## STS
+STS (Security Token Service) is a webservice that enables an application to dynamically generate temporary security credentials with restricted permissions based on an IAM Role.
+- Expire after a given time (ranging from minutes to several hours)
+- When expired, all acces is lost and the credentials need to be requested again
+
+Pros:
+- Dynamically create credentials
+- No need to rotate
+- No need to create AWS identities for your users. The credentials are namespace by user, so they can only access their own data/services
