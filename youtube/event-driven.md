@@ -1,4 +1,4 @@
-Event-driven Architecture - MArtin Fowler (GOTO 2017)
+Event-driven Architecture - Martin Fowler (GOTO 2017)
 [youtube](https://www.youtube.com/watch?v=STKCRSUsyP0)
 
 Event-driven patterns
